@@ -8,6 +8,7 @@
 #Να υπολογίσετε και να εμφανίσετε τις απαντήσεις για κάθε ένα από τα παρακάτω ερωτήματα
 
 
+#Ερώτηση 1:να βρείτε (αν υπάρχουν) και να εμφανίσετε το πλήθος των κενών γραμμών σε κάθε στήλη του dataset
 library(readr)
 DelayedFlights <- read_csv("C:\Users\new\Desktop\ergasia1\DelayedFlights.csv")
 View(DelayedFlights)
@@ -19,8 +20,6 @@ library('dplyr')
 
 str(DelayedFlights)
 dim(DelayedFlights)
-
-#Ερώτηση 1:να βρείτε (αν υπάρχουν) και να εμφανίσετε το πλήθος των κενών γραμμών σε κάθε στήλη του dataset
 
 emp <- c()
 for (i in 1:30){
