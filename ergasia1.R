@@ -9,8 +9,8 @@
 
 
 #Ερώτηση 1:να βρείτε (αν υπάρχουν) και να εμφανίσετε το πλήθος των κενών γραμμών σε κάθε στήλη του dataset
-library(readr)
-DelayedFlights <- read_csv("C:\Users\new\Desktop\ergasia1\DelayedFlights.csv")
+library(readxl)
+DelayedFlights <- read_excel("C:/Users/new/Desktop/ergasia1/DelayedFlights.csv")
 View(DelayedFlights)
 
 if (require('tidyverse')==FALSE){install.packages("tidyverse")}
